@@ -23,7 +23,7 @@ export default function SmartHomeDashboard() {
 
   return (
     <div className="min-h-screen bg-[#020617] text-slate-200 p-8">
-      <h1 className="text-center text-3xl font-black text-cyan-400 mb-6">HOME-AI OS</h1>
+      <h1 className="text-center text-3xl font-black text-cyan-400 mb-6">NeuraHome OS</h1>
 
       <div className="grid md:grid-cols-4 gap-4 mb-10">
         <Stat icon={<Battery className="text-green-400"/>} label="Battery" val={`${data.battery}%`} />
