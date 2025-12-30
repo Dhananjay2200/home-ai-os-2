@@ -1,5 +1,5 @@
 [build]
-base = "ui"
-command = "npm run build"
-publish = "build"
+  base = "ui"
+  command = "npm run build"
+  publish = "build"
 
